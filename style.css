@@ -22,16 +22,24 @@
 
 /* box css starts */
 
+.main {
+  display: grid;
+  justify-content: center;
+}
+
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 300px);
-  grid-gap: 10px;
-  overflow: hidden;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 5px;
+  width: 1000px;
+  justify-content: center;
 }
 
 .card {
+  display: grid;
   border: solid 3px black;
   border-radius: 5px;
+  width: 300px;
 }
 
 /* RELATIVE AND ABSOLUTE POSITIONING */
@@ -60,8 +68,8 @@
 }
 
 .social-icons {
-  /* display: inline; */
-  align-content: right;
+  justify-self: end;
+  padding: 0 10px;
 }
 
 p {
