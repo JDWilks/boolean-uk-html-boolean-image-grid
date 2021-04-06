@@ -1,0 +1,70 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* header css starts*/
+
+.header {
+  display: grid;
+  height: auto;
+  background-color: #0e0e0e;
+  margin-bottom: 20px;
+}
+
+.logo-top {
+  height: 100px;
+  object-fit: auto;
+}
+
+/* header css finishes */
+
+/* box css starts */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-gap: 10px;
+  overflow: hidden;
+}
+
+.card {
+  border: solid 3px black;
+  border-radius: 5px;
+}
+
+/* RELATIVE AND ABSOLUTE POSITIONING */
+
+.main-image {
+  position: relative;
+}
+
+.absolute-logo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  border-radius: 50px;
+}
+
+/* RELATIVE AND ABSOLUTE POSITIONING */
+
+.laptop {
+  object-fit: cover;
+  width: 100%;
+
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-position: center;
+}
+
+.social-icons {
+  /* display: inline; */
+  align-content: right;
+}
+
+p {
+  padding: 20px;
+  border-bottom: 20px;
+}
