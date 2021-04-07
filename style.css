@@ -24,16 +24,13 @@
   display: grid;
   align-content: center;
   margin-bottom: 20px;
-  padding-left: 170px;
+  width: 1fr;
+  height: 200px;
+  overflow: hidden;
 }
 
 .hero {
   display: block;
-  background-size: contain;
-  width: 900px;
-  height: 200px;
-  resize: both;
-  overflow: hidden;
 }
 
 /* box css starts */
