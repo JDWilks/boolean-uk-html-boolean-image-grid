@@ -20,6 +20,22 @@
 
 /* header css finishes */
 
+.tophero {
+  display: grid;
+  align-content: center;
+  margin-bottom: 20px;
+  padding-left: 170px;
+}
+
+.hero {
+  display: block;
+  background-size: contain;
+  width: 900px;
+  height: 200px;
+  resize: both;
+  overflow: hidden;
+}
+
 /* box css starts */
 
 .main {
